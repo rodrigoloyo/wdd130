@@ -1,45 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital@1&display=swap");
 
 body {
-    font-size: 18px;
-    color: white;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(25, 136, 108);
-    font-family: "Indie Flower";
-    
-  }
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(25, 136, 108);
+  font-family: "Indie Flower";
+}
 
-header, footer  { 
-     background-color: rgb(235,235,211);
-     margin: 0 auto;
-     color:darkblue;
-     border: 1px solid #bbbbbb;
-     padding: 0.5rem;
-     display: grid;
-     
-    
+header,
+footer {
+  background-color: rgb(235, 235, 211);
+  margin: 0 auto;
+  color: darkblue;
+  border: 1px solid #bbbbbb;
+  padding: 0.5rem;
+  display: grid;
 }
 
 header {
   grid-template-columns: 116px 1fr;
-
 }
 
 footer {
   grid-template-columns: 550px 1fr;
 }
- 
 
 li {
-   
   display: inline;
   padding: 25px;
+}
 
-} 
- 
+/* classes sections */
+
 .page {
-
   width: 760px;
   margin: 0 auto;
+}
+.images1 img {
+  width: 760px;
+  height: 300px;
+}
+
+.item2 img {
+  width: 500px;
+  height: auto;
+}
+.item3 img {
+  width: 500px;
+  height: auto;
+}
+
+.socialmedia img {
+  width: 25%;
+  height: auto;
 }
