@@ -33,7 +33,7 @@
 
 }
 
-/* Activity 2 Styles */
+/* Activity 2 Styles  */
 .content2 {
   position: relative;
 }
@@ -43,7 +43,7 @@
   background-color: red;
   position: absolute;
   left: 75px;
-  /* top: 75px; */
+ 
    
 } 
 .green2 {
@@ -101,7 +101,7 @@
   height: 250px;
   background-color: gold;
    
-  /* justify-content:space-between; */
+   
 }
 
 .blue3 {
@@ -157,7 +157,7 @@
 /* Activity 5 Styles */
 .content5 {
   /* Activity Five Container */
-  /* display: grid; */
+ 
   height: 500px;
  
   
