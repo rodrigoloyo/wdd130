@@ -99,7 +99,7 @@ footer {
   color: rgb(0, 0, 12);
 
   opacity: 3;
-  background: linear-gradient(#eee, gray);
+  background: linear-gradient(#eee, rgb(25, 136, 108));
 }
 
 .nav1 li {
