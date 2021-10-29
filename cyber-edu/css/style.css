@@ -14,6 +14,8 @@ body {
   background-color: white;
   height: 400px;
   width: 800px;
+  border: 5px solid #000;
+  margin-left: 10px;
 }
 
 .section1{
@@ -64,6 +66,8 @@ body {
   width: 800px;
   font-family: 'Roboto Mono', monospace;
   text-align: justify;
+  border: 5px solid #000;
+  margin-left: 10px;
   
 }
 
