@@ -2,8 +2,9 @@
 body {
   font-size: 18px;
   background-color: #729AE6;
-  margin: 10px; 
-    padding: 1rem;
+  margin: 2px; 
+  padding: 1rem;
+  margin-bottom: 20px;
   border: 5px solid #000;
  font-family: "roboto", Helvetica, sans-serif;
 }
@@ -73,6 +74,58 @@ body {
 .content2 h1 { 
 
   font-family:'Ubuntu', sans-serif;
+
+}
+.wireframe{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .2fr 1fr;
+  column-gap: 12px;
+  height: 450px;
+  text-align: center;
+  
+}
+
+.wireframe h3{
+  grid-column: 2/3;
+  text-align: center;
+
+}
+.home_wireframe  {
+  grid-row: 2/4 ;
+  grid-column: 1/2;
+  height: 300px;
+    
+}
+
+.home_wireframe img {
+  width: 100%;
+  height: 100%;
+}
+.subpage1_wireframe{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  
+}
+
+.subpage1_wireframe img {
+
+  width: 100%;
+  height: 80%;
+
+}
+
+.subpage2_wireframe {
+  grid-row: 2/3;
+   
+
+   
+}
+
+.subpage2_wireframe img {
+
+  width: 100%;
+  height: 80%;
 
 }
 

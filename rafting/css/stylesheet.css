@@ -21,6 +21,10 @@ h1 {
   font-family: "Indie Flower";
 }
 
+p {
+  text-align: justify;
+}
+
 header,
 footer {
   background-color: rgb(235, 235, 211);
@@ -57,10 +61,7 @@ footer {
 .page {
   width: 804px;
   margin: 0 auto;
-  /* background-color: blue; */
-  /* background-color: rgb(25, 136, 108);  */
 }
-
 .page h2 {
   font-family: "Indie Flower";
 }
@@ -71,6 +72,13 @@ footer {
   margin: 0;
 
   text-align: center;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration: aliceblue;
+
+
 }
 
 .banner {
@@ -151,6 +159,9 @@ footer {
   margin-left: 10px;
   box-shadow: 0 0 50px black;
   border-radius: 10px;
+
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .item3 {
@@ -198,3 +209,76 @@ footer {
 
   display: inline;
 }
+
+.river_trip_1 h2 {
+  grid-column: 1/4;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.river_trip_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  align-content: center;
+  align-items: center;
+  column-gap: 35px;
+  row-gap: 10px;
+}
+
+.river_trip_1 h3 {
+  position: relative;
+  text-align: center;
+  color: black;
+  padding: 20px;
+ 
+  border-radius: 10px 10px 10px 10px;
+
+  bottom: 25px;
+
+  background: radial-gradient(#eee, #e2b618);
+  border: 1px solid #000;
+  padding: 0.2rem;
+  box-shadow: 0 0 50px #333;
+  opacity: 0.9;
+  color: darkblue;
+}
+
+
+
+.river1 img {
+  width: 100%;
+}
+
+.map1 img {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 50px;
+  bottom: 35px;
+}
+
+.river2 img {
+  width: 100%;
+}
+
+.map1 img {
+  width: 150px;
+} 
+
+.river3 {
+  
+  grid-column: 3/4;
+}
+.river3 img {
+  width: 100%;
+}
+.map1 img {
+  width: 150px;
+}
+
+.map3 img {
+  width: 10px;
+}
+
+
