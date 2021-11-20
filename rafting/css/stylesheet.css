@@ -1,4 +1,3 @@
-
 /* CSS format for all pages */
 body {
   font-size: 18px;
@@ -131,7 +130,7 @@ footer {
 }
 
 /* HOME PAGE code */
- 
+
 .item2 {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -144,12 +143,11 @@ footer {
 
 .item2 h2 {
   width: 100%;
-  height: 0px;  
-  text-align:center;
- 
+  height: 0px;
+  text-align: center;
 }
 .item2 img {
-  width: 100%;  
+  width: 100%;
   margin-left: 10px;
   box-shadow: 0 0 50px black;
   border-radius: 10px;
@@ -160,7 +158,7 @@ footer {
 
 .item2 p {
   grid-row: 2/3;
-  margin-top: 0px;  
+  margin-top: 0px;
 }
 
 .item3 {
@@ -170,7 +168,6 @@ footer {
   grid-gap: 20px;
   text-align: justify;
   position: relative;
-  
 }
 
 .item3 h2 {
@@ -180,9 +177,6 @@ footer {
   position: relative;
   left: 520px;
   top: 25px;
-  
-  
-  
 }
 .item3 img {
   width: 100%;
@@ -241,7 +235,7 @@ footer {
   text-align: center;
   color: black;
   padding: 20px;
- 
+
   border-radius: 10px;
 
   bottom: 25px;
@@ -292,9 +286,9 @@ footer {
 
 .map1 img {
   width: 150px;
-} 
+}
 
-.river3 {  
+.river3 {
   grid-column: 3/4;
 }
 .river3 img {
@@ -302,7 +296,6 @@ footer {
   height: 171px;
   border: 2px solid #000;
   border-radius: 10px;
-  
 }
 
 .river4 img {
@@ -310,14 +303,12 @@ footer {
   height: 180px;
   border: 2px solid #000;
   border-radius: 10px;
-  
 }
 .river5 img {
   width: 100%;
   height: 180px;
   border: 2px solid #000;
   border-radius: 10px;
-  
 }
 .map1 img {
   width: 150px;
@@ -355,13 +346,13 @@ footer {
   background: linear-gradient(#eee, rgb(25, 136, 108));
 }
 
-.h2_about_us{
-text-align: center;
+.h2_about_us {
+  text-align: center;
 }
 
 .content_about_us {
   display: grid;
-  grid-template-columns:  1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 
   grid-column-gap: 20px;
 }
@@ -373,17 +364,16 @@ text-align: center;
   top: 25px;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #000;
- 
 }
 .content_about_us p {
-grid-column: 3/5;
-padding: 5px;
+  grid-column: 3/5;
+  padding: 5px;
 }
 
 .staff {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr; 
- grid-column-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
 }
 
 .staff_1 img {
@@ -392,17 +382,15 @@ padding: 5px;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #000;
 }
- 
+
 .staff_1 p {
- text-align: center;
- position: relative;
- bottom: 15px;
- background-color: #e2b618;
- color: darkblue;
- font-family: "Indie Flower";
- font-size: 1.4rem;
- border-radius: 10px 10px 10px 10px;
- border: 2px solid #000;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+  background-color: #e2b618;
+  color: darkblue;
+  font-family: "Indie Flower";
+  font-size: 1.4rem;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #000;
 }
-
-
