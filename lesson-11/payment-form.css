@@ -1,0 +1,77 @@
+ 
+ form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 620px;
+  height: 400px;
+  /* Form outline */
+  padding: 5em;
+  border: 2px solid rgb(189, 141, 141);
+  border-radius: 1em;
+  background-color: antiquewhite;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+   
+}
+
+ul {
+  list-style: none;
+  padding: 2em;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 2.8em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em 'Ubuntu', sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 2px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 150px; /* same size as the label elements */
+  
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+   
+  margin-left: .5em;
+  padding: 2rem;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: grey;
+}
