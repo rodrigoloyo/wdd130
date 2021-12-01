@@ -54,9 +54,9 @@ hr {
 
 .heart img {
     width: 30px;
-    right: 420px;
+    right: 38%;
     position: absolute;
-    top:100px    
+    top:20%;    
   }
 
  h3 {
@@ -68,6 +68,7 @@ hr {
     bottom:10px;
     border: 1px solid gray;
     font-size: .90rem;
+    
 }
 h3 a{
     text-decoration: none;
@@ -78,7 +79,7 @@ h3:hover {
   }
 
  .heart img:hover {  
-     filter:opacity(30%) ;
+     filter:invert(100%) ;
    }
   .bottom p {
      font-variant: small-caps;      
