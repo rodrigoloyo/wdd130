@@ -72,6 +72,7 @@ header h1 {
 .banner {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: center ;
 }
 .banner p {
   color: white;
@@ -79,11 +80,14 @@ header h1 {
   text-align: justify;
   font-size: 1.1rem;
   padding: 10px;
+  padding-right: 25px;
 }
 
 .banner img {
-  padding-left: 15px;
+  padding-left: 20px;
   padding-top: 15px;
+  width: 95%;
+  padding-right: 15px;
 }
 .home_item_1 {
   display: grid;
@@ -107,7 +111,7 @@ header h1 {
 }
 .home_item_1 img {
   grid-column: 2/3;
-  align-items: center;
+ 
   
 }
 footer{
