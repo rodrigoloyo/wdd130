@@ -10,7 +10,9 @@ body {
 .page {
   width: 1040px;
   margin: 0 auto;
-  background-color: #150B1E;
+  /* background-color: #150B1E; */
+  background-color:black;
+
 }
 a { 
 
@@ -119,6 +121,7 @@ footer{
 
 footer p {
    text-align: center;
+   font-variant: small-caps;
 }
 .socialmedia img {
 
