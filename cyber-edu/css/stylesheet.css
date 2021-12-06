@@ -134,4 +134,12 @@ footer a{
   font-variant: small-caps;
 }
 
+.button {
+  color: black;
+}
+
+.button h2:hover{
+  color:black;
+  font-size: 1.6rem;
+}
  
