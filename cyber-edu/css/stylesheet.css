@@ -1,16 +1,14 @@
 body {
   font-family: "Ubuntu", sans-serif;
-
   margin: 0;
-  padding: 0;
-  width: 100%;
+  padding: 0; 
   box-sizing: content-box;
   align-content: center;
 }
 .page {
   width: 1040px;
   margin: 0 auto;
-  /* background-color: #150B1E; */
+  
   background-color:black;
 
 }
@@ -26,16 +24,16 @@ header, footer  {
 }
 header {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr 2fr;
+  grid-template-columns: 1fr 0.5fr 2fr;
 
 }
 header img {
   width: 135px;
-  grid-column: 3/4;
+  grid-column: 2/3;
 }
 
 header h1 {
-  grid-column: 1/3;
+  
   grid-row: 1/2;
   text-align: center;
   margin-top: 55px;
@@ -121,7 +119,8 @@ footer{
 
 footer p {
    text-align: center;
-   font-variant: small-caps;
+   font-size: 1.2rem;
+ 
 }
 .socialmedia img {
 
@@ -130,10 +129,7 @@ footer p {
 
 }
 
-footer a{
-  font-variant: small-caps;
-}
-
+ 
 .button {
   color: black;
 }
