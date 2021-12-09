@@ -185,3 +185,25 @@ footer p {
   
 
  } 
+
+
+.sub_page_2 {
+  margin-top: 25px;
+  margin-left: 2px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+
+}
+
+.sub_page_2_11 {
+  margin-top: 25px;
+  margin-left: 2px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+
+}
+
