@@ -279,7 +279,7 @@ footer p {
 
 .wrapper {
   height: 100vh;
-  position: realtive;
+ 
 }
 
 
@@ -326,7 +326,6 @@ input {
   color: #fff;
   font-size: .7rem;
   border: none;
-  outline: none;
-  cursor: pointer;
+ 
 }
 
