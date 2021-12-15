@@ -123,7 +123,7 @@ header h1 {
 }
 .home_item_1 img {
   grid-column: 2/3;
-  box-shadow: 0 0 30px #9B5757;
+  box-shadow: 0 0 30px #bd1e1e;
   border-radius: 10px;
 }
 
@@ -164,6 +164,10 @@ footer{
   top:155px;
  
 
+}
+
+.image_3 {
+  grid-column: 3/6;
 }
 
 .sub_page img {
