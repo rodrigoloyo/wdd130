@@ -100,7 +100,7 @@ header h1 {
   padding-top: 15px;
   width: 95%;
   padding-right: 15px;
-  box-shadow: 0 0 30px #9B5757;
+  /* box-shadow: 0 0 30px #9B5757; */
   position: relative;
   left: 10px;
   border-radius: 10px;
@@ -123,7 +123,7 @@ header h1 {
 }
 .home_item_1 img {
   grid-column: 2/3;
-  box-shadow: 0 0 30px #bd1e1e;
+  /* box-shadow: 0 0 30px #bd1e1e; */
   border-radius: 10px;
 }
 
